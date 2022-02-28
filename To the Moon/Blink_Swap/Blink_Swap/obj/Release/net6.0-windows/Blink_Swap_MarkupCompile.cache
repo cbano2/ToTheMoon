@@ -1,20 +1,20 @@
 ﻿Blink_Swap
-1.0.0.0
+
 
 winexe
 C#
 .cs
-C:\Users\carlo\Documents\EPN\1er semestre\Programación 1\GitHub\ToTheMoon\To the Moon\Blink_Swap\Blink_Swap\obj\Debug\net6.0-windows\
+C:\Users\carlo\Documents\EPN\1er semestre\Programación 1\GitHub\ToTheMoon\To the Moon\Blink_Swap\Blink_Swap\obj\Release\net6.0-windows\
 Blink_Swap
 none
 false
-TRACE;DEBUG;NET;NET6_0;NETCOREAPP
+TRACE;RELEASE;NET;NET6_0;NETCOREAPP
 C:\Users\carlo\Documents\EPN\1er semestre\Programación 1\GitHub\ToTheMoon\To the Moon\Blink_Swap\Blink_Swap\App.xaml
 3-1995436631
 
-7-1573342042
+5-23153727
 1941142463650
 Exchange.xaml;MainWindow.xaml;Window1.xaml;
 
-False
+True
 

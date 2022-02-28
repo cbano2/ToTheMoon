@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\carlo\\Documents\\EPN\\1er semestre\\Programación 1\\C#\\To the Moon\\Blink_Swap\\Blink_Swap\\Blink_Swap.csproj": {}
+    "C:\\Users\\carlo\\Documents\\EPN\\1er semestre\\Programación 1\\GitHub\\ToTheMoon\\To the Moon\\Blink_Swap\\Blink_Swap\\Blink_Swap.csproj": {}
   },
   "projects": {
-    "C:\\Users\\carlo\\Documents\\EPN\\1er semestre\\Programación 1\\C#\\To the Moon\\Blink_Swap\\Blink_Swap\\Blink_Swap.csproj": {
+    "C:\\Users\\carlo\\Documents\\EPN\\1er semestre\\Programación 1\\GitHub\\ToTheMoon\\To the Moon\\Blink_Swap\\Blink_Swap\\Blink_Swap.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\carlo\\Documents\\EPN\\1er semestre\\Programación 1\\C#\\To the Moon\\Blink_Swap\\Blink_Swap\\Blink_Swap.csproj",
+        "projectUniqueName": "C:\\Users\\carlo\\Documents\\EPN\\1er semestre\\Programación 1\\GitHub\\ToTheMoon\\To the Moon\\Blink_Swap\\Blink_Swap\\Blink_Swap.csproj",
         "projectName": "Blink_Swap",
-        "projectPath": "C:\\Users\\carlo\\Documents\\EPN\\1er semestre\\Programación 1\\C#\\To the Moon\\Blink_Swap\\Blink_Swap\\Blink_Swap.csproj",
+        "projectPath": "C:\\Users\\carlo\\Documents\\EPN\\1er semestre\\Programación 1\\GitHub\\ToTheMoon\\To the Moon\\Blink_Swap\\Blink_Swap\\Blink_Swap.csproj",
         "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\carlo\\Documents\\EPN\\1er semestre\\Programación 1\\C#\\To the Moon\\Blink_Swap\\Blink_Swap\\obj\\",
+        "outputPath": "C:\\Users\\carlo\\Documents\\EPN\\1er semestre\\Programación 1\\GitHub\\ToTheMoon\\To the Moon\\Blink_Swap\\Blink_Swap\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
