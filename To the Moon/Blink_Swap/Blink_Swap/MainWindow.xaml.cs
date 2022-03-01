@@ -25,11 +25,18 @@ namespace Blink_Swap
         public string email;
         public string user;
         public string password;
+        public double amount;
+        public string coin;
+        public string key;
 
     }
     public struct Store
     {
-        
+        public string address;
+        public string name;
+        public double balance;
+        public string key;
+
     }
     public struct Date
     {
@@ -47,7 +54,10 @@ namespace Blink_Swap
     public struct Swap
     {
         public Date date;
+        public Customer customer;
+        public Store store;
         
+ 
     }
     public partial class MainWindow : Window
     {
