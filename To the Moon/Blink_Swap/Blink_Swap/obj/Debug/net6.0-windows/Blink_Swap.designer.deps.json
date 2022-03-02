@@ -5,7 +5,24 @@
   },
   "compilationOptions": {},
   "targets": {
-    ".NETCoreApp,Version=v6.0": {}
+    ".NETCoreApp,Version=v6.0": {
+      "MahApps.Metro.IconPacks.Material/2.3.0": {
+        "runtime": {
+          "lib/net46/MahApps.Metro.IconPacks.Material.dll": {
+            "assemblyVersion": "2.3.0.4",
+            "fileVersion": "2.3.0.0"
+          }
+        }
+      }
+    }
   },
-  "libraries": {}
+  "libraries": {
+    "MahApps.Metro.IconPacks.Material/2.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OVDJ7S3PVH7ND4Vy4gk1jPGh0o06aZfWHNwOf7UqiMGZZEyj3hhaj/PskSlvlYyyOB1KTjDO737CZN1RECnMtw==",
+      "path": "mahapps.metro.iconpacks.material/2.3.0",
+      "hashPath": "mahapps.metro.iconpacks.material.2.3.0.nupkg.sha512"
+    }
+  }
 }

@@ -26,17 +26,24 @@ namespace Blink_Swap
         public string user;
         public string password;
         public double amount;
-        public string coin;
+        public Coin coin;
         public string key;
 
     }
     public struct Store
     {
         public string address;
-        public string name;
+        public string user;
+        public string email;
         public double balance;
         public string key;
 
+    }
+    public struct Coin
+    {
+        public double BTC;
+        public double ETH;
+        public double SOL;
     }
     public struct Date
     {
@@ -64,6 +71,11 @@ namespace Blink_Swap
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

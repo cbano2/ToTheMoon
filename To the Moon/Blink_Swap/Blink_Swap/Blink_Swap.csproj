@@ -15,4 +15,12 @@
     <Resource Include="logo-cryptoepn.png" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Images\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MahApps.Metro.IconPacks.Material" Version="2.3.0" />
+  </ItemGroup>
+
 </Project>
