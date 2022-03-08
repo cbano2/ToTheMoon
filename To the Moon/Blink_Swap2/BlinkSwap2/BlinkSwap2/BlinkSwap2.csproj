@@ -72,6 +72,9 @@
     <Compile Include="Swap.xaml.cs">
       <DependentUpon>Swap.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Tranferencia.xaml.cs">
+      <DependentUpon>Tranferencia.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Transaccion.cs" />
     <Compile Include="Usuario.cs" />
     <Page Include="MainWindow.xaml">
@@ -99,6 +102,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Swap.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tranferencia.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -19,15 +19,17 @@ namespace BlinkSwap2
     /// </summary>
     public partial class Swap : Window
     {
+        List<Monedas> ListaMonedas = new List<Monedas>();
+
         public Swap()
         {
             InitializeComponent();
-            List<Monedas> ListaMonedas = new List<Monedas>();
-            ListaMonedas.Add(new Monedas { NombreMonedas="Btc"});
+            ListaMonedas.Add(new Monedas { NombreMonedas = "Btc" });
             ListaMonedas.Add(new Monedas { NombreMonedas = "Solana" });
             ListaMonedas.Add(new Monedas { NombreMonedas = "Eth" });
-            Moneda.ItemsSource= ListaMonedas;
-            
+            Moneda.ItemsSource = ListaMonedas;
+
+
         }
 
         private void Window_MouseDown(object sender, MouseButtonEventArgs e)
@@ -48,18 +50,23 @@ namespace BlinkSwap2
 
         public void Button_Click(object sender, RoutedEventArgs e)
         {
+
             Usuario usuario = new Usuario();
             Transaccion transaccion = new Transaccion();
             String total;
-            total=txtTotal.Text;
-            usuario.Name=txtUser.Text;
-            usuario.Wallet=TxtWallet.Text;
-            usuario.Email=TxtEmail.Text;
+            total = txtTotal.Text;
+            usuario.Name = txtUser.Text;
+            usuario.Wallet = TxtWallet.Text;
+            usuario.Email = TxtEmail.Text;
             usuario.Cedula = txtCed.Text;
             usuario.Amount = Convert.ToDouble(txtTotal.Text);
+
             MessageBox.Show("Se ha realizado de forma correcta la conversión y transferencia");
-            
-             
+            this.Hide();
+            Tranferencia transferencia = new Tranferencia();
+
+            transferencia.Show();
+            transferencia.mostrarUsuario(usuario, ListaMonedas[0]);
         }
      
         public class Monedas

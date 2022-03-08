@@ -22,3 +22,5 @@ C:\Users\carlo\Documents\EPN\1er semestre\Programación 1\GitHub\ToTheMoon\To th
 C:\Users\carlo\Documents\EPN\1er semestre\Programación 1\GitHub\ToTheMoon\To the Moon\Blink_Swap2\BlinkSwap2\BlinkSwap2\obj\Debug\Programa.baml
 C:\Users\carlo\Documents\EPN\1er semestre\Programación 1\GitHub\ToTheMoon\To the Moon\Blink_Swap2\BlinkSwap2\BlinkSwap2\obj\Debug\Swap.g.cs
 C:\Users\carlo\Documents\EPN\1er semestre\Programación 1\GitHub\ToTheMoon\To the Moon\Blink_Swap2\BlinkSwap2\BlinkSwap2\obj\Debug\Swap.baml
+C:\Users\carlo\Documents\EPN\1er semestre\Programación 1\GitHub\ToTheMoon\To the Moon\Blink_Swap2\BlinkSwap2\BlinkSwap2\obj\Debug\Tranferencia.g.cs
+C:\Users\carlo\Documents\EPN\1er semestre\Programación 1\GitHub\ToTheMoon\To the Moon\Blink_Swap2\BlinkSwap2\BlinkSwap2\obj\Debug\Tranferencia.baml

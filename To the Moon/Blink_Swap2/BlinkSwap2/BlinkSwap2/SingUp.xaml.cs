@@ -19,7 +19,7 @@ namespace BlinkSwap2
     /// </summary>
     public partial class SingUp : Window
     {
-        Store store = new Store();
+        
         
         public SingUp()
         {
@@ -36,18 +36,21 @@ namespace BlinkSwap2
 
         public void Button_Click(object sender, RoutedEventArgs e)
         {
-            
+            Tranferencia transferencia = new Tranferencia();
+            Store store = new Store();
             store.User = txtUser.Text;
             store.Ruc = txtRuc.Text;
             store.Wallet = TxtWallet.Text;
             store.Email = TxtEmail.Text;
             store.Amount = 0;
+            transferencia.mostrarTienda(store);
             MessageBox.Show("Se guardo correctamente el usuario");
             Swap swap = new Swap();
-            
             this.Hide();
             Programa programa = new Programa();
             programa.Show();
+            
+           
             
 
         }

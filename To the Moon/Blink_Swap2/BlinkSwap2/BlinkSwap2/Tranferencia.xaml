@@ -1,0 +1,182 @@
+﻿<Window x:Class="BlinkSwap2.Tranferencia"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BlinkSwap2"
+        mc:Ignorable="d"
+        Title="Tranferencia" Height="420" Width="500">
+    <Grid>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <Border CornerRadius="10" Grid.RowSpan="2" HorizontalAlignment="Left" Width="800">
+                <Border.Background>
+                    <LinearGradientBrush>
+                        <GradientStop Color="#7be9f6" Offset="0.0"/>
+                        <GradientStop Color="#f083da" Offset="1"/>
+                    </LinearGradientBrush>
+                </Border.Background>
+            </Border>
+            <StackPanel>
+                <Image Source="/blink2.png" Width="199" Height="160" RenderTransformOrigin="0.509,0.972"/>
+                <TextBlock Text="Transferencia Exitosa"
+                           FontWeight="Light"
+                           FontFamily="helvetica"
+                           FontSize="22"
+                           Foreground="Black"
+                           HorizontalAlignment="Center"/>
+            </StackPanel>
+            <StackPanel Grid.Row="1">
+                <StackPanel  Orientation="Horizontal">
+                    <TextBox FontFamily="Helvetica"
+                         FontWeight="Light"
+                         Text="De:"
+                         Name="txtUser"
+                         FontSize="20"
+                         Foreground="Black"
+                         Background="Transparent"
+                         BorderThickness="0"
+                         Width="33"
+                         HorizontalContentAlignment="Left"
+                         Opacity="0.5"
+                         Height="25"
+                         Margin="65,0,0,0"/>
+                    <TextBox FontFamily="Helvetica"
+                        FontWeight="Light"
+                        x:Name="txtWalletUsuario"
+                        FontSize="20"
+                        Foreground="Black"
+                        Background="Transparent"
+                        BorderThickness="0"
+                        Width="180"
+                        HorizontalContentAlignment="Left"
+                        Opacity="0.5"
+                        Height="25"
+                         />
+                    <TextBox FontFamily="Helvetica"
+                        FontWeight="Light"
+                        Text="A:"
+                        x:Name="txtUser_Copy1"
+                        FontSize="20"
+                        Foreground="Black"
+                        Background="Transparent"
+                        BorderThickness="0"
+                        Width="33"
+                        HorizontalContentAlignment="Left"
+                        Opacity="0.5"
+                        Height="25" 
+                         />
+                    <TextBox FontFamily="Helvetica"
+                        FontWeight="Light"
+                        Text=""
+                        x:Name="txtWalletTienda"
+                        FontSize="20"
+                        Foreground="Black"
+                        Background="Transparent"
+                        BorderThickness="0"
+                        Width="173"
+                        HorizontalContentAlignment="Left"
+                        Opacity="0.5"
+                        Height="25"
+                         />
+
+                </StackPanel>
+
+
+
+                <StackPanel  Orientation="Horizontal" Margin="0,20,0,0">
+                    <TextBox FontFamily="Helvetica"
+                         FontWeight="Light"
+                         Text="Cliente: "
+                         Name="txtRuc"
+                         FontSize="20"
+                         Foreground="Black"
+                         Background="Transparent"
+                         BorderThickness="0"
+                         Width="84"
+                         HorizontalContentAlignment="Left"
+                         Opacity="0.5"
+                         Height="25"
+                         Margin="65,0,0,0"/>
+                    <TextBox FontFamily="Helvetica"
+                        FontWeight="Light"
+                        Text=" "
+                        x:Name="txtNombre"
+                        FontSize="20"
+                        Foreground="Black"
+                        Background="Transparent"
+                        BorderThickness="0"
+                        Width="257"
+                        HorizontalContentAlignment="Left"
+                        Opacity="0.5"
+                        Height="25"
+                         />
+                </StackPanel>
+                <StackPanel  Orientation="Horizontal" Margin="0,20,0,0">
+                    <TextBox FontFamily="Helvetica"
+                         FontWeight="Light"
+                         Text="Cantidad en USDT: "
+                         Name="TxtWallet"
+                         FontSize="20"
+                         Foreground="Black"
+                         Background="Transparent"
+                         BorderThickness="0"
+                         Width="187"
+                         HorizontalContentAlignment="Left"
+                         Opacity="0.5"
+                         Height="25"
+                         Margin="65,0,0,0"/>
+                    <TextBox FontFamily="Helvetica"
+                        FontWeight="Light"
+                        Text=" "
+                        x:Name="TxtTotal"
+                        FontSize="20"
+                        Foreground="Black"
+                        Background="Transparent"
+                        BorderThickness="0"
+                        Width="188"
+                        HorizontalContentAlignment="Left"
+                        Opacity="0.5"
+                        Height="25"
+                         />
+                </StackPanel>
+                <StackPanel  Orientation="Horizontal" Margin="0,20,0,0">
+                    <TextBox FontFamily="Helvetica"
+                         FontWeight="Light"
+                         Text="Moneda usada: "
+                         Name="TxtEmail"
+                         FontSize="20"
+                         Foreground="Black"
+                         Background="Transparent"
+                         BorderThickness="0"
+                         Width="153"
+                         HorizontalContentAlignment="Left"
+                         Opacity="0.5"
+                         Height="25"
+                         Margin="65,0,0,0"
+                            />
+                    <TextBox FontFamily="Helvetica"
+                        FontWeight="Light"
+                        Text=" "
+                        x:Name="TxtMoneda"
+                        FontSize="20"
+                        Foreground="Black"
+                        Background="Transparent"
+                        BorderThickness="0"
+                        Width="103"
+                        HorizontalContentAlignment="Left"
+                        Opacity="0.5"
+                        Height="25"
+                            />
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal" Margin="0,40,0,0"/>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>
